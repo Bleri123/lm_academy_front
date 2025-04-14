@@ -4,9 +4,32 @@ const router = createRouter({
   routes: [
     {
       path: '/',
-      name: 'home',
-      component: () => import('@/views/HomePage.vue'),
+      name: 'defaultLayout',
+      component: () => import('@/layouts/DefaultLayout.vue'),
+      children: [
+        {
+          path: '',
+          name: 'home',
+          component: () => import('@/views/HomePageView.vue'),
+        },
+        {
+          path: 'privacy-policy',
+          name: 'privacyPolicy',
+          component: () => import('@/views/PrivacyPolicy.vue'),
+        },
+        {
+          path: 'terms-of-service',
+          name: 'termsOfService',
+          component: () => import('@/views/TermsOfService.vue'),
+        },
+        {
+          path: 'contact',
+          name: 'contact',
+          component: () => import('@/views/ContactPage.vue'),
+        },
+      ],
     },
+
     {
       path: '/:pathMatch(.*)*',
       name: 'NotFound',

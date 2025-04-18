@@ -38,7 +38,7 @@
                 checked
               />
               <label for="hs-default-checkbox" class="text-sm text-gray-500 ms-3"
-                >Remeber this Device</label
+                >Remember this Device</label
               >
             </div>
             <a href="../" class="text-sm font-semibold text-blue-600 hover:text-blue-700"

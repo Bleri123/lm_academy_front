@@ -27,25 +27,23 @@ onMounted(() => {
 </script>
 
 <template>
-  <main class="px-4">
-    <!-- content start -->
-    <div class="wrapper min-h-[calc(100vh-10rem)] flex flex-col justify-around">
-      <div class="welcome-message flex justify-center">
-        <div class="w-[250px] md:w-[450px] text-center">
-          <h1 class="text-3xl">
-            Welcome to LM Academy Empowering Students with the Skills of Tomorrow
-          </h1>
-        </div>
-      </div>
-      <div class="api-quote flex justify-end">
-        <div class="w-[250px] md:w-[450px] text-end space-y-4 text-2xl">
-          <h1 class="italic font-gelasio text-[#003366]">
-            {{ quote || 'Loading...' }}
-          </h1>
-          <p class="text-[#8694a9]">{{ author || 'Loading...' }}</p>
-        </div>
+  <!-- content start -->
+  <div class="h-full flex flex-col justify-around">
+    <div class="welcome-message flex justify-center">
+      <div class="w-[250px] md:w-[450px] text-center">
+        <h1 class="text-3xl">
+          Welcome to LM Academy Empowering Students with the Skills of Tomorrow
+        </h1>
       </div>
     </div>
-    <!-- content end -->
-  </main>
+    <div class="api-quote flex justify-end">
+      <div class="w-[250px] md:w-[450px] text-end space-y-4 text-2xl">
+        <h1 class="italic font-gelasio text-[#003366]">
+          {{ quote || 'Loading...' }}
+        </h1>
+        <p class="text-[#8694a9]">{{ author || 'Loading...' }}</p>
+      </div>
+    </div>
+  </div>
+  <!-- content end -->
 </template>

@@ -15,17 +15,17 @@ const router = createRouter({
         {
           path: 'privacy-policy',
           name: 'privacyPolicy',
-          component: () => import('@/views/PrivacyPolicy.vue'),
+          component: () => import('@/components/default/PrivacyPolicy.vue'),
         },
         {
           path: 'terms-of-service',
           name: 'termsOfService',
-          component: () => import('@/views/TermsOfService.vue'),
+          component: () => import('@/components/default/TermsOfService.vue'),
         },
         {
           path: 'contact',
           name: 'contact',
-          component: () => import('@/views/ContactPage.vue'),
+          component: () => import('@/components/default/ContactPage.vue'),
         },
       ],
     },

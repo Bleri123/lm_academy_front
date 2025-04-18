@@ -10,7 +10,7 @@ import FooterDefault from '../components/default/general/FooterDefault.vue'
     <!-- header end -->
 
     <!-- content start -->
-    <router-view />
+    <router-view class="wrapper min-h-[calc(100vh-10rem)]" />
     <!-- content end -->
 
     <!-- Footer start -->

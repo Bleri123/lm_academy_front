@@ -1,5 +1,7 @@
-<script setup></script>
+<script setup>
+import TermsOfService from '@/components/default/TermsOfService.vue'
+</script>
 
 <template>
-  <div>Terms of Service</div>
+  <TermsOfService />
 </template>

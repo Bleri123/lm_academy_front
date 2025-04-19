@@ -1,5 +1,7 @@
-<script setup></script>
+<script setup>
+import ContactPage from '@/components/default/ContactPage.vue'
+</script>
 
 <template>
-  <div>Contact Page</div>
+  <ContactPage />
 </template>

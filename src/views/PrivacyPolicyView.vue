@@ -1,5 +1,7 @@
-<script setup></script>
+<script setup>
+import PrivacyPolicy from '@/components/default/PrivacyPolicy.vue'
+</script>
 
 <template>
-  <div>Privacy Policy</div>
+  <PrivacyPolicy />
 </template>

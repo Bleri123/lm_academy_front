@@ -11,26 +11,41 @@ const router = createRouter({
           path: '',
           name: 'home',
           component: () => import('@/views/HomePageView.vue'),
+          meta: {
+            visitor: true,
+          },
         },
         {
           path: 'privacy-policy',
           name: 'privacyPolicy',
           component: () => import('@/components/default/PrivacyPolicy.vue'),
+          meta: {
+            visitor: true,
+          },
         },
         {
           path: 'terms-of-service',
           name: 'termsOfService',
           component: () => import('@/components/default/TermsOfService.vue'),
+          meta: {
+            visitor: true,
+          },
         },
         {
           path: 'contact',
           name: 'contact',
           component: () => import('@/components/default/ContactPage.vue'),
+          meta: {
+            visitor: true,
+          },
         },
         {
           path: 'about-us',
           name: 'aboutUs',
           component: () => import('@/components/default/AboutUsPage.vue'),
+          meta: {
+            visitor: true,
+          },
         },
       ],
     },

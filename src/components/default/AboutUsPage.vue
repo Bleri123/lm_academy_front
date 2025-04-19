@@ -107,7 +107,7 @@
           </p>
         </div>
       </div>
-      <div class="w-full bg-white mt-8 pb-5 rounded-lg">
+      <div class="w-full bg-white mt-8 rounded-lg">
         <h1 class="text-4xl font-bold flex justify-center py-2">Students</h1>
         <div class="flex justify-center gap-4 text-center border-t-2 border-black">
           <p class="w-2/3 border-r-2 border-black pt-5 text-blue-500">

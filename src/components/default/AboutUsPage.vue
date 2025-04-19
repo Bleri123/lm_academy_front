@@ -76,13 +76,34 @@
         <h1 class="text-4xl font-bold flex justify-center py-2">Mentors</h1>
         <div class="flex justify-center gap-4 text-center border-t-2 border-black">
           <p class="w-2/3 border-r-2 border-black pt-5 text-blue-500">
-            Valdrin Nasufi <span class="text-black">(valdrin.nasufi@gmail.com)</span>
+            <a
+              href="https://www.linkedin.com/in/valdrin-nasufi-132ba0197/"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="text-blue-500"
+              >Valdrin Nasufi</a
+            >
+            <span class="text-black"> (valdrin.nasufi@gmail.com)</span>
           </p>
           <p class="w-2/3 border-black pt-5 text-blue-500">
-            Almedin Nasufi <span class="text-black">(almedin.nasufi@gmail.com)</span>
+            <a
+              href="https://www.linkedin.com/in/almedin-nasufi-496163174/"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="text-blue-500"
+              >Almedin Nasufi</a
+            >
+            <span class="text-black"> (almedin.nasufi@gmail.com)</span>
           </p>
           <p class="w-2/3 border-l-2 border-black pt-5 pb-5 text-blue-500">
-            Ilmi Bunjaku <span class="text-black">(ilmi.bunjaku@gmail.com)</span>
+            <a
+              href="https://www.linkedin.com/in/ilmi-bunjaku-8043079a/"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="text-blue-500"
+              >Ilmi Bunjaku</a
+            >
+            <span class="text-black"> (ilmi.bunjaku@gmail.com)</span>
           </p>
         </div>
       </div>
@@ -90,35 +111,74 @@
         <h1 class="text-4xl font-bold flex justify-center py-2">Students</h1>
         <div class="flex justify-center gap-4 text-center border-t-2 border-black">
           <p class="w-2/3 border-r-2 border-black pt-5 text-blue-500">
-            Bleon Nasufi <span class="text-black">(bleonnasufi9@gmail.com)</span>
+            <a
+              href="https://www.linkedin.com/in/bleon-nasufi-55b491316/"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="text-blue-500"
+              >Bleon Nasufi</a
+            >
+            <span class="text-black"> (bleonnasufi9@gmail.com)</span>
           </p>
           <p class="w-2/3 border-black pt-5 text-blue-500">
-            Elton Rexha <span class="text-black">(eltonrexha20@gmail.com)</span>
+            <a href="#" target="_blank" rel="noopener noreferrer" class="text-blue-500"
+              >Elton Rexha</a
+            >
+            <span class="text-black"> (eltonrexha20@gmail.com)</span>
           </p>
           <p class="w-2/3 border-l-2 border-black pt-5 pb-5 text-blue-500">
-            Edi Pajaziti <span class="text-black">(edipajaziti5@gmail.com)</span>
+            <a
+              href="https://www.linkedin.com/in/edi-pajaziti-20a6b41ba/"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="text-blue-500"
+              >Edi Pajaziti</a
+            >
+            <span class="text-black"> (edipajaziti5@gmail.com)</span>
           </p>
         </div>
         <div class="flex justify-center gap-4 text-center border-t-2 border-black">
           <p class="w-2/3 border-r-2 border-black pt-5 text-blue-500">
-            Qemajl Kera <span class="text-black">(Qemal200200@gmail.com)</span>
+            <a href="#" target="_blank" rel="noopener noreferrer" class="text-blue-500"
+              >Qemajl Kera</a
+            >
+            <span class="text-black"> (Qemal200200@gmail.com)</span>
           </p>
           <p class="w-2/3 border-black pt-5 text-blue-500">
-            Talat Mustafa <span class="text-black">(talatmustafa476@gmail.com)</span>
+            <a
+              href="https://www.linkedin.com/in/talat-mustafa-185a88304/"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="text-blue-500"
+              >Talat Mustafa</a
+            >
+            <span class="text-black"> (talatmustafa476@gmail.com)</span>
           </p>
           <p class="w-2/3 border-l-2 border-black pt-5 pb-5 text-blue-500">
-            Astrit Shala <span class="text-black">(shalaastrit7212@gmail.com)</span>
+            <a href="#" target="_blank" rel="noopener noreferrer" class="text-blue-500"
+              >Astrit Shala</a
+            >
+            <span class="text-black"> (shalaastrit7212@gmail.com)</span>
           </p>
         </div>
         <div class="flex justify-center gap-4 text-center border-t-2 border-black">
           <p class="w-2/3 border-r-2 border-black pt-5 text-blue-500">
-            Dijar Çerkezi <span class="text-black">(dijarcerkezi8@gmail.com)</span>
+            <a href="#" target="_blank" rel="noopener noreferrer" class="text-blue-500"
+              >Dijar Çerkezi</a
+            >
+            <span class="text-black"> (dijarcerkezi8@gmail.com)</span>
           </p>
           <p class="w-2/3 border-black pt-5 pb-5 text-blue-500">
-            Hysnije Bajraktari <span class="text-black">(hysnije.bb1@gmail.com)</span>
+            <a href="#" target="_blank" rel="noopener noreferrer" class="text-blue-500"
+              >Hysnije Bajraktari</a
+            >
+            <span class="text-black"> (hysnije.bb1@gmail.com)</span>
           </p>
           <p class="w-2/3 border-l-2 border-black pt-5 pb-5 text-blue-500">
-            Learta Pllana <span class="text-black">(leartapllana6@gmail.com)</span>
+            <a href="#" target="_blank" rel="noopener noreferrer" class="text-blue-500"
+              >Learta Pllana</a
+            >
+            <span class="text-black"> (leartapllana6@gmail.com)</span>
           </p>
         </div>
       </div>

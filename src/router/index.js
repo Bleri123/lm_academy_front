@@ -1,4 +1,6 @@
+import { useUserStore } from '@/stores/useUserStore'
 import { createRouter, createWebHistory } from 'vue-router'
+import fetchCurrentUser from '@/utils/fetchCurrentUser'
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
   routes: [
@@ -87,9 +89,32 @@ const router = createRouter({
           name: 'DashboardUserlist',
           component: () => import('@/views/Dashboard/UserList.vue'),
         },
+        {
+          path: 'send-registration-invite',
+          name: 'DashboardSendRegistrationInvite',
+          component: () => import('@/views/Dashboard/SendRegistrationInviteView.vue'),
+        },
       ],
     },
   ],
 })
 
+router.beforeEach((to, from, next) => {
+  const userStore = useUserStore()
+  const localStorageToken = localStorage.getItem('lm_access_token')
+  let isUserLoggedIn = userStore?.isUserLoggedIn
+  let storeUser = userStore?.user
+
+  console.log('storeUser', storeUser)
+
+  if (localStorageToken && storeUser != undefined) {
+    fetchCurrentUser().then((user) => {
+      console.log('user', user.user)
+      userStore.setUser(user.user)
+      isUserLoggedIn = true
+    })
+  }
+
+  return next()
+})
 export default router

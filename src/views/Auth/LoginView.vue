@@ -3,6 +3,8 @@ import { ref } from 'vue'
 import Axios from '@/utils/axios'
 import { useRouter } from 'vue-router'
 import { useUserStore } from '@/stores/useUserStore'
+import { toast } from 'vue3-toastify'
+
 const email = ref('')
 const password = ref('')
 const router = useRouter()
@@ -28,12 +30,13 @@ const handleSubmit = async () => {
       userStore.setUser(authUser)
       router.push('/dashboard')
 
-      // const getRoles = await Axios.post('/auth/user-profile', data)
+      const getRoles = await Axios.get('/auth/user-profile', data)
     }
 
     console.log('response', response)
   } catch (error) {
-    console.log(error)
+    toast.error(error.response.data.message)
+    console.log(error.response.data.message)
   }
 }
 </script>
